@@ -1,4 +1,8 @@
+ 
+
 <?php
+// SINGIZWA Materne  25/33003 & UWAMARIYA NADINE 25/32602 
+
 require_once "../config/db.php";
 require_once "controllers/ServiceController.php";
 
@@ -19,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div class="container">
     <h2>Create New Service</h2>
-
+   
     <form method="POST" oninput="calculateTotal()">
 
         <label>Service Type</label>
